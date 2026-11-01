@@ -3,44 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EHMAH Technologies - Services</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <title>Services | EHMAH Technologies</title>
+  <meta name="description" content="Website development, mobile apps, computer repair, software installation, Wi-Fi, networking, digital marketing and content creation.">
+  <meta name="theme-color" content="#0a0f0d">
+  <meta property="og:title" content="Services | EHMAH Technologies">
+  <meta property="og:description" content="Website development, mobile apps, computer repair, software installation, Wi-Fi, networking, digital marketing and content creation.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2300e676'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Arial' font-weight='700' text-anchor='middle' fill='%230a0f0d'%3EE%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar">
-    <div class="container">
-      <a href="index.html" class="logo">EHMAH Technologies</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html" class="active">Services</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo"><span class="logo-mark">E</span>EHMAH <span class="logo-sub">Technologies</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li><li><a href="services.html" class="active" aria-current="page">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+          <li class="nav-cta"><a href="contact.html" class="btn btn-sm">Get a quote</a></li>
+        </ul>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <section class="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Computer Repair & Maintenance</li>
-        <li>Software Installation & Activation</li>
-        <li>Wi-Fi Service Installation</li>
-        <li>Website Development</li>
-        <li>Mobile Application Development (Android & iOS)</li>
-        <li>Digital Marketing</li>
-        <li>Networking and Troubleshooting</li>
-        <li>Content Creation</li>
-      </ul>
-    </div>
-  </section>
-
+  <main id="main">
+  <section class="page-hero"><div class="container"><span class="eyebrow">Services</span><h1>What I can do for you</h1><p class="lead">Pick a service below and send a request. I'll reply with a quote.</p></div></section>
+  <section class="section tight"><div class="container"><div class="grid">
+    <article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><h3>Website Development</h3><p>Fast, mobile-friendly websites for businesses, portfolios and events.</p><a class="card-link" href="contact.html?service=website">Request this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></article><article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div><h3>Mobile App Development</h3><p>Android and iOS apps built to solve a real problem for your users.</p><a class="card-link" href="contact.html?service=mobile+app">Request this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></article><article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div><h3>Computer Repair & Maintenance</h3><p>Hardware fixes, clean-ups and tune-ups to get your machine running well again.</p><a class="card-link" href="contact.html?service=computer+repair">Request this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></article><article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div><h3>Software Installation & Activation</h3><p>Operating systems, office tools and everyday software set up properly.</p><a class="card-link" href="contact.html?service=software+installation">Request this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></article><article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg></div><h3>Wi-Fi Service Installation</h3><p>Reliable Wi-Fi setup for homes, shops and small offices.</p><a class="card-link" href="contact.html?service=wifi+installation">Request this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></article><article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg></div><h3>Networking & Troubleshooting</h3><p>Find and fix connection problems and set up small networks.</p><a class="card-link" href="contact.html?service=networking">Request this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></article><article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><h3>Digital Marketing</h3><p>Social media and online presence that helps people find your business.</p><a class="card-link" href="contact.html?service=digital+marketing">Request this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></article><article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></div><h3>Content Creation</h3><p>Posts, graphics and short videos that fit your brand.</p><a class="card-link" href="contact.html?service=content+creation">Request this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></article>
+  </div></div></section>
+  <section class="section"><div class="container"><div class="cta-band reveal"><h2>Not sure what you need?</h2><p>Describe the problem and I'll recommend the best option.</p><div class="hero-actions center-actions"><a href="contact.html" class="btn">Talk to me</a></div></div></div></section>
+  </main>
   <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 EHMAH Technologies. All rights reserved.</p>
-      <p>Contact: <a href="tel:0765205619">0765205619</a> | <a href="mailto:ehmahtechnologies@gmail.com">ehmahtechnologies@gmail.com</a></p>
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo-mark">E</span>EHMAH <span class="logo-sub">Technologies</span></a>
+        <p class="muted">Affordable, reliable tech solutions for small businesses and individuals.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul class="flist">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="flist">
+          <li><a href="tel:0765205619">0765205619</a></li>
+          <li><a href="mailto:ehmahtechnologies@gmail.com">ehmahtechnologies@gmail.com</a></li>
+          <li><a href="https://wa.me/256765205619" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
     </div>
+    <div class="container footer-bottom"><p>&copy; <span id="year">2025</span> EHMAH Technologies. All rights reserved.</p></div>
   </footer>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
